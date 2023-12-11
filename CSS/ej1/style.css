@@ -1,0 +1,19 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  
+    background-color: gainsboro;
+}
+ol{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+
+ul{
+    list-style-type: square;
+}
+h3 , i{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
