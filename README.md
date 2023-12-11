@@ -1,4 +1,2 @@
 # Repositorio de Lenguaje de Marcas
-**wodk**
-wdwqdqw
-sfeewed
+Este repositorio contiene **HTML**,**CSS** y **javascript**
