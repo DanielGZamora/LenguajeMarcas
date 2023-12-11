@@ -1,2 +1,2 @@
 # Repositorio de Lenguaje de Marcas
-Este repositorio contiene **HTML**,**CSS** y **javascript**
+Este repositorio contiene **HTML**,**CSS** y **Javascript**.
