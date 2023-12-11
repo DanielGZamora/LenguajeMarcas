@@ -1,25 +1,2 @@
 # Repositorio de Lenguaje de Marcas
-`
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">    <!-- Esto es el css -->
-    <title>Document</title>
-</head>
-<body>
-    <h2>Modulos DAW</h2>
-    <ol>
-        <li>Curso1
-        <ul>
-            <li>Base de datos</li>
-            <li>Lenguaje de marcas</li>
-            <li>Programacion</li>
-        </ul>
-    </li>
-    </ol>
-    <h3>Este ejemplo tiene una<span><i>cursiva</i>con</span>un formato de texto<i> rojo</i>,verdana y subrayado</h3>
-  
-</body>
-</html>
-`
+` <html></html> `
