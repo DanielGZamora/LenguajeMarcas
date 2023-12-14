@@ -1,0 +1,22 @@
+table{
+  width: 50%;
+  border: 3px solid red;
+}
+td{
+  border: 5px solid blue;
+  border-style: groove;
+}
+th{
+  height: 50px;
+  border: 2px solid green;
+  border-style: dashed;
+}
+thead{
+  background-color: grey;
+}
+tbody{
+  background-color: yellow;
+}
+td{
+  background-color: orange;
+}

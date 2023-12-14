@@ -1,0 +1,4 @@
+table,td,tr,th,thead{
+  border: 1px solid;
+  border-collapse: collapse;
+}
