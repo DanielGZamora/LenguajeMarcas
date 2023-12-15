@@ -17,7 +17,7 @@ thead{
 tbody{
   background-color: yellow;
 }
-td{
+td:nth-child(n+5){
   background-color: orange;
   text-align: right;
 }
