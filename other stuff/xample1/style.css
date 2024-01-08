@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6F1D1B;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #BB9457;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.course-card {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+footer {
+    background-color: #432818;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
