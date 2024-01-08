@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>example</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">example</a></li>
-                <li><a href="#">example</a></li>
-                <li><a href="#">example</a></li>
-                <li><a href="#">example</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="main">
-            <h1>example</h1>
-            <p>example</p>
-        </section>
-        <section class="courses">
-           <div class="course-card">example1</div>
-           <div class="course-card">example2</div>
-           <div class="course-card">example3</div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; example</p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>example</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">example</a></li>
+                        <li><a href="#">example</a></li>
+                        <li><a href="#">example</a></li>
+                        <li><a href="#">example</a></li>
+                    </ul>
+                </div>
+                
+                <a href="javascript:void(0);" class="icon"
+                    onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <section class="main">
+                <h1>example</h1>
+                <p>example</p>
+            </section>
+            <section class="courses">
+                <div class="course-card">example1</div>
+                <div class="course-card">example2</div>
+                <div class="course-card">example3</div>
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy; example</p>
+        </footer>
+    </body>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 </html>
