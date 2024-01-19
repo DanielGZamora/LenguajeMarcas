@@ -1,0 +1,107 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        body {
+    font-weight: bold;
+    color: white;
+}
+
+#contenido {
+    /* Ancho de 300px y centrado en el navegador */
+    width: 300px;
+    margin: auto;
+    /* Borde sólido y fondo gris claro */
+    border: solid 1px black;
+    background-color: #CCCCCC;
+}
+table,th,td{
+   
+    border: 1px solid;
+}
+
+#caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+#caja2 {
+    width: 130px;
+    height: 130px;
+    background-color: #00FF00;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+#caja3 {
+    width: 160px;
+    height: 160px;
+    background-color: #0000FF;
+    border: solid 1px black;
+    margin: 10px;
+    position: relative;
+}
+#caja4 {
+    width: 160px;
+    height: 160px;
+    bottom: 0;
+    right: 0;
+    background-color: #eeff00;
+    border: solid 1px black;
+    color: black;
+    margin: 10px;
+    position: fixed;
+
+}
+#caja5 {
+    width: 160px;
+    height: 160px;
+    background-color: #00ffea;
+    border: solid 1px black;
+    color: black;
+    margin: 10px;
+    position: sticky;
+
+}
+
+    </style>
+    </head>
+    <body>
+        <div id="contenido">
+            <div id="caja1"> Caja 1 </div>
+            <div id="caja2"> Caja 2 </div>
+            <div id="caja3"> Caja 3 </div>
+            <div id="caja4"> Este contenido se mueve junto a la pagina web </div>
+            <div id="caja5"> Este se pega a la pantalla cuando la hacemos mas pequeña </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+                maxime, sequi consequuntur commodi quo minima quasi necessitatibus
+                dolor nesciunt amet? Exercitationem quos quaerat hic error, est
+                deserunt incidunt eligendi laudantium?</p>
+            <table>
+                <tr>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                </tr>
+                <tr>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                </tr>
+                <tr>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                    <td>algo</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
