@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+         fieldset>p:first-child:hover{
+            visibility: hidden;
+            
+        }
+        fieldset>p:first-child:hover{
+            visibility: visible;
+            color: green;
+        }
+    </style>
+    </head>
+    <body>
+        <form action="https://algo.org/ver_REQUEST.php">
+            <textarea name="cv" id="cv" cols="20"
+                rows="5">Añade tu cv...</textarea>
+            <fieldset>
+                <p>
+                    Daniel Garcia Zamora
+                </p>
+                <p>
+                    <label>Contraseña: </label>
+                    <input type="password" name="Contraseña" required="required" value="21-11-2003">
+                </p>
+                <p>
+                    <label>provincia: </label>
+                    <select name="ciudad" size="2" multiple="multiple">
+                        <option value="41">Sevilla</option>
+                        <option value="04">Cádiz</option>
+                        <option value="21" selected="selected">Huelva</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit">
+                    <input type="reset">
+                </p>
+                <legend>Daniel Garcia Zamora</legend>
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
