@@ -1,0 +1,8 @@
+<!ELEMENT urbanizacion (casa+)>
+<!ATTLIST casa portal CDATA #REQUIRED>
+<!ELEMENT casa(cocina, aseo,salon, dormitorio?)>
+<!ELEMENT casa (#PCDATA)>
+<!ELEMENT cocina (#PCDATA)>
+<!ELEMENT aseo (#PCDATA)>
+<!ELEMENT salon (#PCDATA)>
+<!ELEMENT dormitorio (#PCDATA)>
