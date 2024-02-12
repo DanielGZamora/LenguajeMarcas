@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-model href="note.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+    <lastname>Refsnes</lastname>
+    <age>102</age>
+    <dateborn>1970-03-27</dateborn>
+</note>
