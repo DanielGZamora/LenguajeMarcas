@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inventores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="inventor" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="nombre" />
+                        <xs:attribute name="invento" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
