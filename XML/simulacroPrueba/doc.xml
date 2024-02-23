@@ -1,0 +1,20 @@
+<?xml-model href="doc.xsd"?>
+<empresa>
+    <empleado>
+        <nombre></nombre>
+        <proyectos>Sócrates</proyectos>
+        <lNominas>
+            <n1>
+                <importe></importe>
+            </n1>
+            <n2>
+                <importe></importe>
+            </n2>
+            <n3>
+                <importe></importe>
+            </n3>
+        </lNominas>
+        <antiguedad></antiguedad>
+
+    </empleado>
+</empresa>

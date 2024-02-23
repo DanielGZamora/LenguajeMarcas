@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empleado" minOccurs="0" maxOccurs="100">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" />
+                            <xs:element name="proyectos" type="xs:string" />
+                            <xs:element name="lNominas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="n1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="importe" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="n2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="importe" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="n3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="importe" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="antiguedad"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
