@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<A>
+    <C>
+        <D></D>
+        <E E1="a" />
+        <E E2="b" />
+        <E E3="c" />
+        <E E4="d" />
+        
+    </C>
+    <C>
+        <D></D>
+        <E E1="e" />
+        <E E2="f" />
+        <E E3="g" />
+        <E E4="h" />
+    </C>
+
+</A>
