@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="familia.xsl" type="text/xsl"?>
+<A>
+    <P>
+        Padre
+        <H>Hijo</H>
+    </P>
+</A>

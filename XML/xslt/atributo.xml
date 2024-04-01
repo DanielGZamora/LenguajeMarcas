@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="atributo.xsl" type="text/xsl"?>
+<raiz>
+    <elemento atributo="valor_del_atributo">
+        texto del elemento
+    </elemento>
+</raiz>
