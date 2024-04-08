@@ -1,0 +1,13 @@
+<!ELEMENT champions (octavos)+ >
+<!ELEMENT octavos (equipo+,partido+) >
+<!ELEMENT equipo EMPTY >
+<!ATTLIST equipo nombre CDATA #REQUIRED
+                 ciudad CDATA #REQUIRED
+                 estadio CDATA #REQUIRED>
+<!ELEMENT partido (equipo_l,equipo_v,goles_l,goles_v) >
+<!ELEMENT equipo_l (#PCDATA) >
+<!ELEMENT equipo_v (#PCDATA) >
+<!ELEMENT goles_l (goleador_l)* >
+<!ELEMENT goles_v (goleador_v)* >
+<!ELEMENT goleador_l (#PCDATA) >
+<!ELEMENT goleador_v (#PCDATA) >
