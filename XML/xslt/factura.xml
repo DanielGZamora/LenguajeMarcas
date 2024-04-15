@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="factura.xsl" type="text/xsl"?>
+<factura>
+    <emision>29 de marzo de 2023</emision>
+    <cliente>IES Vélez de Guevara</cliente>
+    <articulos>
+        <articulo>
+            <denominacion>SSD 512G</denominacion>
+            <precio>70 €</precio>
+            <cantidad>3</cantidad>
+        </articulo>
+        <articulo>
+            <denominacion>SSD 256G</denominacion>
+            <precio>40 €</precio>
+            <cantidad>1</cantidad>
+        </articulo>
+        <articulo>
+            <denominacion>HDD 512G</denominacion>
+            <precio>10 €</precio>
+            <cantidad>2</cantidad>
+        </articulo>
+        <articulo>
+            <denominacion>Hard Disk SATA 1TB</denominacion>
+            <precio>30 €</precio>
+            <cantidad>1</cantidad>
+        </articulo>
+    </articulos>
+    <descuento>5%</descuento>
+    <vendedor>Pablo Sierra</vendedor>
+</factura>
