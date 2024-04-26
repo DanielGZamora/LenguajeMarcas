@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="prueba1.xsl" type="text/xsl"?>
+<a>
+    <b atr="atributo 1">
+        <c>Texto 1</c>
+    </b>
+    <b atr="atributo 2">
+        <c>Texto 2</c>
+    </b>
+    <b atr="atributo 3">
+        <c>Texto 3</c>
+    </b>
+    <d>
+        <e>Google</e>
+    </d>
+</a>
