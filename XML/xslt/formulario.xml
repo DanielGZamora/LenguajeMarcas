@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.xsl" type="text/xsl"?> 
+<form>
+    <entrada>Introduce nombre</entrada>
+    <entrada>Introduce edad</entrada>
+    <entrada>Introduce curso</entrada>
+    <entrada>Introduce fecha nacimiento</entrada>
+    <entrada>Introduce nif</entrada>
+    <entrada>Introduce codigo</entrada>
+    <entrada>Introduce coche</entrada>
+    <accion url="ver_REQUEST.php"/>
+</form>
