@@ -1,0 +1,9 @@
+<!ELEMENT formulario (conjunto*)>
+<!ELEMENT conjunto (leyenda, campo*)>
+<!ELEMENT leyenda (#PCDATA)>
+<!ELEMENT campo (texto,etiqueta?,entrada)>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT etiqueta (#PCDATA)>
+<!ELEMENT entrada EMPTY>
+<!ATTLIST entrada tipo CDATA #REQUIRED>
+<!ATTLIST entrada nombre CDATA #REQUIRED>

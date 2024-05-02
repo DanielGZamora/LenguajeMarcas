@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formulario SYSTEM "formulario.dtd">
+<formulario>
+    <conjunto>
+        <leyenda>Entrada de usuario</leyenda>
+        <campo>
+            <etiqueta>Username</etiqueta>
+            <entrada tipo="text" />
+        </campo>
+        <campo>
+            <etiqueta>Password</etiqueta>
+            <entrada tipo="password" />
+        </campo>
+    </conjunto>
+    <conjunto>
+        <leyenda>Botones</leyenda>
+        <campo>
+            <etiqueta>Enviar</etiqueta>
+            <entrada tipo="submit" />
+        </campo>
+        <campo>
+            <etiqueta>Limpiar</etiqueta>
+            <entrada tipo="reset" />
+        </campo>
+    </conjunto>
+</formulario>

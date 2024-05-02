@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="formulario1.xsl" type="text/xsl"?>
+<!DOCTYPE formulario SYSTEM "formulario.dtd">
+
+<formulario>
+    <conjunto>
+        <leyenda>Registro de alumno</leyenda>
+        <campo>
+            <etiqueta>Username</etiqueta>
+            <entrada tipo="text" />
+        </campo>
+        <campo>
+            <etiqueta>Password</etiqueta>
+            <entrada tipo="password" />
+        </campo>
+        <campo>
+            <etiqueta>Edad</etiqueta>
+            <entrada tipo="number" />
+        </campo>
+        <campo>
+            <etiqueta>CV</etiqueta>
+            <entrada tipo="textarea" />
+        </campo>
+        <campo>
+            <etiqueta>Fecha de alta</etiqueta>
+            <entrada tipo="date" />
+        </campo>
+        <campo>
+            <etiqueta>Foto</etiqueta>
+            <entrada tipo="file" />
+        </campo>
+        <campo>
+            <entrada tipo="radio" />
+        </campo>
+    </conjunto>
+</formulario>
