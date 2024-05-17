@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <apellidos>Alfonso Isnard</apellidos>
+      <email>cuentaDeCorreo1@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Esteban</nombre>
+   </element>
+   <element>
+      <apellidos>Castilla Gómez</apellidos>
+      <email>cuentaDeCorreo2@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Inmaculada del Valle</nombre>
+   </element>
+   <element>
+      <apellidos>Del Mármol Rodríguez</apellidos>
+      <email>cuentaDeCorreo3@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Salvador</nombre>
+   </element>
+   <element>
+      <apellidos>Duarte Pérez</apellidos>
+      <email>cuentaDeCorreo4@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Javier</nombre>
+   </element>
+   <element>
+      <apellidos>Durán Enríquez</apellidos>
+      <email>cuentaDeCorreo5@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Pastor Miguel</nombre>
+   </element>
+   <element>
+      <apellidos>Escobar Adalid</apellidos>
+      <email>cuentaDeCorreo6@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Javier</nombre>
+   </element>
+   <element>
+      <apellidos>Farfán Espuny</apellidos>
+      <email>cuentaDeCorreo7@gmail.com</email>
+      <grupos />
+      <nombre>Juan Enrique</nombre>
+   </element>
+   <element>
+      <apellidos>Fernández Luque</apellidos>
+      <email>cuentaDeCorreo8@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Nerea</nombre>
+   </element>
+   <element>
+      <apellidos>Flores Flores</apellidos>
+      <email>cuentaDeCorreo9@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Juan Carlos</nombre>
+   </element>
+   <element>
+      <apellidos>García Zamora</apellidos>
+      <email>cuentaDeCorreo10@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Daniel</nombre>
+   </element>
+   <element>
+      <apellidos>Laorden Laguna</apellidos>
+      <email>cuentaDeCorreo11@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Mireya</nombre>
+   </element>
+   <element>
+      <apellidos>Luque Martín</apellidos>
+      <email>cuentaDeCorreo12@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>Jesús</nombre>
+   </element>
+   <element>
+      <apellidos>Priego García</apellidos>
+      <email>cuentaDeCorreo13@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Manuel</nombre>
+   </element>
+   <element>
+      <apellidos>Rodríguez López</apellidos>
+      <email>cuentaDeCorreo14@gmail.com</email>
+      <grupos>1º DAW-A, Duales</grupos>
+      <nombre>José Rubén</nombre>
+   </element>
+   <element>
+      <apellidos>Rodríguez Real</apellidos>
+      <email>cuentaDeCorreo15@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>José Antonio</nombre>
+   </element>
+   <element>
+      <apellidos>Rodríguez Torres</apellidos>
+      <email>cuentaDeCorreo16@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Gabriel</nombre>
+   </element>
+   <element>
+      <apellidos>Rojano Anguita</apellidos>
+      <email>cuentaDeCorreo17@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Iván</nombre>
+   </element>
+   <element>
+      <apellidos>Villén Solís</apellidos>
+      <email>cuentaDeCorreo18@gmail.com</email>
+      <grupos>1º DAW-A</grupos>
+      <nombre>Fernando</nombre>
+   </element>
+</root>
