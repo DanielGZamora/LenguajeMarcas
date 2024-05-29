@@ -1,0 +1,1 @@
+﻿Tenemos una librería que vende y presta libros, los clientes pueden pedir prestado un libro o pueden comprar los libros que desee, los empleados pueden prestar y vender los libros.

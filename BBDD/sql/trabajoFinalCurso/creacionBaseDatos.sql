@@ -21,7 +21,6 @@ CREATE TABLE Cliente(
     Apellidos VARCHAR(100),
     Direccion VARCHAR(100),
     Telefono CHAR(9),
-    -- LibroPrestado BOOLEAN,
 
     CONSTRAINT PK_Cliente PRIMARY KEY (DNI)
 );
@@ -43,10 +42,27 @@ CREATE TABLE Venta(
     Fecha DATE,
     DNI CHAR(9),
     ISBN CHAR(13),
+    EmpleadoEncargado CHAR(9),
 
     CONSTRAINT PK_Venta PRIMARY KEY (ID),
     CONSTRAINT FK1_Venta FOREIGN KEY (DNI) REFERENCES Cliente(DNI),
-    CONSTRAINT FK2_Venta FOREIGN KEY (ISBN) REFERENCES Libro(ISBN)
+    CONSTRAINT FK2_Venta FOREIGN KEY (ISBN) REFERENCES Libro(ISBN),
+    CONSTRAINT FK3_Venta FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
+);
+
+DROP TABLE IF EXISTS Prestamo;
+CREATE TABLE Prestamo(
+    ID INT AUTO_INCREMENT,
+    Fecha DATE,
+    DNI CHAR(9),
+    ISBN CHAR(13),
+    Devolucion BOOLEAN,
+    EmpleadoEncargado CHAR(9),
+
+    CONSTRAINT PK_Prestamo PRIMARY KEY (ID),
+    CONSTRAINT FK1_Prestamo FOREIGN KEY (DNI) REFERENCES Cliente(DNI),
+    CONSTRAINT FK2_Prestamo FOREIGN KEY (ISBN) REFERENCES Libro(ISBN),
+    CONSTRAINT FK3_Venta FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
 );
 
 
