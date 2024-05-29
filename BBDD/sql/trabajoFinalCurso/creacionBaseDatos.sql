@@ -1,9 +1,10 @@
+DROP DATABASE IF EXISTS libreria;
 CREATE DATABASE IF NOT EXISTS libreria;
 USE libreria;
 
 DROP TABLE IF EXISTS Libro;
 CREATE TABLE Libro(
-    ISBN CHAR(13),
+    ISBN CHAR(20),
     Titulo VARCHAR(100),
     Autor VARCHAR(100),
     Editorial VARCHAR(100),
@@ -41,7 +42,7 @@ CREATE TABLE Venta(
     ID INT AUTO_INCREMENT,
     Fecha DATE,
     DNI CHAR(9),
-    ISBN CHAR(13),
+    ISBN CHAR(20),
     EmpleadoEncargado CHAR(9),
 
     CONSTRAINT PK_Venta PRIMARY KEY (ID),
@@ -55,14 +56,14 @@ CREATE TABLE Prestamo(
     ID INT AUTO_INCREMENT,
     Fecha DATE,
     DNI CHAR(9),
-    ISBN CHAR(13),
+    ISBN CHAR(20),
     Devolucion BOOLEAN,
     EmpleadoEncargado CHAR(9),
 
     CONSTRAINT PK_Prestamo PRIMARY KEY (ID),
     CONSTRAINT FK1_Prestamo FOREIGN KEY (DNI) REFERENCES Cliente(DNI),
     CONSTRAINT FK2_Prestamo FOREIGN KEY (ISBN) REFERENCES Libro(ISBN),
-    CONSTRAINT FK3_Venta FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
+    CONSTRAINT FK3_Prestamo FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
 );
 
 
