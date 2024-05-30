@@ -28,13 +28,13 @@ CREATE TABLE Cliente(
 
 DROP TABLE IF EXISTS Empleado;
 CREATE TABLE Empleado(
-    DNI CHAR(9),
+    IdEmpleado CHAR(9),
     Nombre VARCHAR(100),
     Apellidos VARCHAR(100),
     Direccion VARCHAR(100),
     Telefono CHAR(9),
 
-    CONSTRAINT PK_Empleado PRIMARY KEY (DNI)
+    CONSTRAINT PK_Empleado PRIMARY KEY (IdEmpleado)
 );
 
 DROP TABLE IF EXISTS Venta;
@@ -48,7 +48,7 @@ CREATE TABLE Venta(
     CONSTRAINT PK_Venta PRIMARY KEY (ID),
     CONSTRAINT FK1_Venta FOREIGN KEY (DNI) REFERENCES Cliente(DNI),
     CONSTRAINT FK2_Venta FOREIGN KEY (ISBN) REFERENCES Libro(ISBN),
-    CONSTRAINT FK3_Venta FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
+    CONSTRAINT FK3_Venta FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(IdEmpleado)
 );
 
 DROP TABLE IF EXISTS Prestamo;
@@ -63,9 +63,8 @@ CREATE TABLE Prestamo(
     CONSTRAINT PK_Prestamo PRIMARY KEY (ID),
     CONSTRAINT FK1_Prestamo FOREIGN KEY (DNI) REFERENCES Cliente(DNI),
     CONSTRAINT FK2_Prestamo FOREIGN KEY (ISBN) REFERENCES Libro(ISBN),
-    CONSTRAINT FK3_Prestamo FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(DNI)
+    CONSTRAINT FK3_Prestamo FOREIGN KEY (EmpleadoEncargado) REFERENCES Empleado(IdEmpleado)
 );
-
 
 
 
