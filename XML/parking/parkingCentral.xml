@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="transformaParking.xsl" type="text/xsl"?>
+<parking lugar="Parque Central" web="https://parquecentral.es">
+    <planta numero="2">
+        <plaza numero="201" libre="si">
+            <vehiculo>7777--KKK</vehiculo>
+        </plaza>
+        <plaza numero="202" libre="si" />
+    </planta>
+    <planta numero="3">
+        <plaza numero="301" libre="si" />
+        <plaza numero="302" libre="no">
+            <vehiculo>5555-hhh</vehiculo>
+        </plaza>
+    </planta>
+    <planta numero="1">
+        <plaza numero="101" libre="no">
+            <vehiculo>1234-LLL</vehiculo>
+        </plaza>
+        <plaza numero="102" libre="si" />
+        <plaza numero="103" libre="no">
+            <vehiculo>5678-LLL</vehiculo>
+        </plaza>
+    </planta>
+</parking>
