@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="transformaParking.xsl" type="text/xsl"?>
+<?xml-stylesheet href="tabla.xsl" type="text/xsl"?>
 <parking lugar="Parque Central" web="https://parquecentral.es">
     <planta numero="2">
         <plaza numero="201" libre="si">
