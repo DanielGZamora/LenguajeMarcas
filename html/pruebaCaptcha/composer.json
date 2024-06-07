@@ -1,0 +1,5 @@
+{
+    "require": {
+        "elioair/chesscaptcha": "^2.0"
+    }
+}
