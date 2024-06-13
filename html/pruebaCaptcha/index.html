@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form ...>
+        ...
+        <!-- The #chesscaptcha div where the captcha will be rendered. If needed you can change the # in the $config array -->
+        <div id="chesscaptcha"><?php if($config['nojsfallback'] == 'yes'){ echo $chesscaptcha->noJsHtml($config['pieceImages']);}?></div>
+            
+        <input type="submit" id="submitform" value="Submit">
+      </form>
+</body>
+</html>
