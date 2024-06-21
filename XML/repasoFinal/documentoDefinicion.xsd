@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="eurocopa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="grupo" type="grupo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="equipo">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="idEquipo" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="grupo">
+        <xs:sequence>
+            <xs:element name="equipo" type="equipo" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="partido" type="partido" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="partido">
+        <xs:sequence>
+            <xs:element name="equipo1" type="equipoReq"/>
+            <xs:element name="equipo2" type="equipoReq"/>
+        </xs:sequence>
+        <xs:attribute name="resultado" type="xs:string"/>
+    </xs:complexType>
+    
+    <xs:complexType name="equipoReq">
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,11 @@
+<!ELEMENT eurocopa (grupo+)>
+<!ELEMENT grupo (equipo*, partido*)>
+<!ELEMENT equipo (#PCDATA)>
+<!ATTLIST equipo idEquipo ID #REQUIRED>
+<!ELEMENT partido (equipo1,equipo2)>
+<!ATTLIST partido resultado NMTOKENS #IMPLIED>
+<!-- Resultado solo con dos tokens -->
+<!ELEMENT equipo1 EMPTY>
+<!ATTLIST equipo1 id IDREF #REQUIRED>
+<!ELEMENT equipo2 EMPTY>
+<!ATTLIST equipo2 id IDREF #REQUIRED>

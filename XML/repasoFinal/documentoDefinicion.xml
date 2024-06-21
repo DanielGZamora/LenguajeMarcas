@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eurocopa SYSTEM "documentoDefinicion.dtd">
+<?xml-model href="documentoDefinicion.xsd"?>
+<eurocopa>
+    <grupo>
+        <equipo idEquipo="id0"> España </equipo>
+        <equipo idEquipo="id1"> Croacia </equipo>
+        <equipo idEquipo="id2"> Italia</equipo>
+        <equipo idEquipo="id3"> Albania </equipo>
+        <partido resultado="1 0">
+            <equipo1 id="id0" />
+            <equipo2 id="id1" />
+        </partido>
+        <partido resultado="3 1">
+            <equipo1 id="id1" />
+            <equipo2 id="id2" />
+        </partido>
+        <partido resultado="0 0">
+            <equipo1 id="id2" />
+            <equipo2 id="id3" />
+        </partido>
+        <partido resultado="0 5">
+            <equipo1 id="id0" />
+            <equipo2 id="id3" />
+        </partido>
+        <partido>
+            <equipo1 id="id1" />
+            <equipo2 id="id3" />
+        </partido>
+        <partido>
+            <equipo1 id="id1" />
+            <equipo2 id="id0" />
+        </partido>
+        
+        
+    </grupo>
+</eurocopa>
