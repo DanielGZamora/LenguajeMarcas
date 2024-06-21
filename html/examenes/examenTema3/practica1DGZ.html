@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica 1 - CSS</title>
+
+        <style>
+        img {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            z-index: relative; /* ahora si tiene z-index */
+            /* Coloca aquí debajo la declaración de la propiedad correspondiente */
+
+        }
+        span{
+            background-color: black;
+            color: white;
+        }
+
+        div {
+            background-color: #00FF00;
+            border: solid 1px black;
+            margin: 10px;
+            text-align: center;
+        }
+        #contenedor1{
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            background-color: #00FF00;
+            border: solid 1px black;
+            margin: 10px;
+        }
+        #contenedor2{
+            float: right;
+            position: relative;
+            width: 130px;
+            height: 130px;
+            background-color: #FFFF00;
+            border: solid 1px black;
+            margin: 10px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1><span>Daniel</span> Garcia Zamora(cambía toda esta secuencia de caracteres '_'
+            por tu <span>nombre</span> y apellidos)</h1>
+
+        <img src="w3css.gif" width="100" height="140">
+
+        <p>Añade una propiedad CSS en estilo interno para colocar la imagen de
+            arriba por detrás del texto</p>
+            <div id="contenedor1">Contenedor 1</div>
+            <div id="contenedor2">Contenedor 2</div>
+
+    </body>
+
+</html>

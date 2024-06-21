@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<A>
+    <D>
+        <E E1="id" E2="nmtokens opcional" E3="e1" E4="x" />
+    </D>
+    <D>
+        <E E1="e1" E2="nmtokens opcional" E3="e1" E4="y" />
+    </D>
+</A>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="SOLUCION1.xsl" type="text/xsl"?>
+<!DOCTYPE formulario SYSTEM "formulario.dtd">
+<formulario>
+    <conjunto>
+        <leyenda>Entrada de usuario</leyenda>
+        <campo>
+            <texto>text</texto>
+            <etiqueta>Username</etiqueta>
+            <entrada tipo="text" nombre=""/>
+        </campo>
+        <campo>
+            <texto></texto>
+            <etiqueta>Password</etiqueta>
+            <entrada tipo="password" nombre=""/>
+        </campo>
+    </conjunto>
+    <conjunto>
+        <leyenda>Botones</leyenda>
+        <campo>
+            <texto></texto>
+            <etiqueta>Enviar</etiqueta>
+            <entrada tipo="submit" nombre=""/>
+        </campo>
+        <campo>
+            <texto></texto>
+            <etiqueta>Limpiar</etiqueta>
+            <entrada tipo="reset" nombre=""/>
+        </campo>
+    </conjunto>
+</formulario>

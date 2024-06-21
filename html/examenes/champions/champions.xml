@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE champions  SYSTEM "champions.dtd">
+<?xml-stylesheet type="text/xsl" href="champions2.xsl"?>
+<champions>
+    <octavos>
+        <equipo nombre="Paris SG" ciudad="Paris" estadio="Parc des Princes"/>
+        <equipo nombre="Chelsea" ciudad="Londres" estadio="Stamford Bridge"/>
+        <equipo nombre="Benfica" ciudad="Lisboa" estadio="Estádio do Sport Lisboa e Benfica"/>
+        <equipo nombre="Zenit" ciudad="San Petersburgo" estadio="Stadion Petrovskiy"/>
+        <equipo nombre="Gent" ciudad="Gante" estadio="KAA Gent Stadium"/>
+        <equipo nombre="Wolfsburg" ciudad="Wolfsburgo" estadio="VfL Wolfsburg Arena"/>
+        <equipo nombre="Roma" ciudad="Roma" estadio="Stadio Olimpico"/>
+        <equipo nombre="Real Madrid" ciudad="Madrid" estadio="S. Bernabeu"/>
+        <equipo nombre="Arsenal" ciudad="Londres" estadio="Arsenal Stadium"/>
+        <equipo nombre="Barcelona" ciudad="Barcelona" estadio="Camp Nou"/>
+        <equipo nombre="Juventus" ciudad="Turin" estadio="Juventus Stadium"/>
+        <equipo nombre="Bayern Munich" ciudad="Munich" estadio="Fußball Arena München"/>
+        <equipo nombre="PSV" ciudad="Eindhoven" estadio="PSV Stadion"/>
+        <equipo nombre="At. Madrid" ciudad="Madrid" estadio="V. Calderón"/>
+        <equipo nombre="Dinamo" ciudad="Kiev" estadio="NSK Olimpiyskyi"/>
+        <equipo nombre="Manchester City" ciudad="Manchester" estadio="City of Manchester Stadium"/>
+        <partido>
+            <equipo_l>Paris SG</equipo_l>
+            <equipo_v>Chelsea</equipo_v>
+            <goles_l>
+                <goleador_l>Ibrahimović</goleador_l>
+				<goleador_l>Cavani</goleador_l>
+            </goles_l>
+            <goles_v>
+                <goleador_v>Mike</goleador_v>
+            </goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Benfica</equipo_l>
+            <equipo_v>Zenit</equipo_v>
+            <goles_l>
+                <goleador_l>Jonas</goleador_l>
+            </goles_l>
+            <goles_v></goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Gent</equipo_l>
+            <equipo_v>Wolfsburg</equipo_v>
+            <goles_l>
+                <goleador_l>Kums</goleador_l>
+                <goleador_l>Coulibaly</goleador_l>
+            </goles_l>
+            <goles_v>
+                <goleador_v>Draxler</goleador_v>
+                <goleador_v>Draxler</goleador_v>
+                <goleador_v>Kruse</goleador_v>               
+            </goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Roma</equipo_l>
+            <equipo_v>Real Madrid</equipo_v>
+            <goles_l></goles_l>
+            <goles_v>
+                <goleador_v>Ronaldo</goleador_v>
+                <goleador_v>Jesé</goleador_v>
+            </goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Arsenal</equipo_l>
+            <equipo_v>Barcelona</equipo_v>
+            <goles_l>
+            </goles_l>
+            <goles_v>
+                <goleador_v>Messi</goleador_v>
+                <goleador_v>Messi</goleador_v>
+            </goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Juventus</equipo_l>
+            <equipo_v>Bayern Munich</equipo_v>
+            <goles_l>
+                <goleador_l>Dybala</goleador_l>
+                <goleador_l>Sturaro</goleador_l>
+            </goles_l>
+            <goles_v>
+                <goleador_v>Müller</goleador_v>
+                <goleador_v>Robben</goleador_v>
+            </goles_v>
+        </partido>
+        <partido>
+            <equipo_l>PSV</equipo_l>
+            <equipo_v>At. Madrid</equipo_v>
+            <goles_l></goles_l>
+            <goles_v></goles_v>
+        </partido>
+        <partido>
+            <equipo_l>Dinamo</equipo_l>
+            <equipo_v>Manchester City</equipo_v>
+            <goles_l>
+                <goleador_l>Buyalskiy</goleador_l>
+            </goles_l>
+            <goles_v>
+                <goleador_v>Agüero</goleador_v>
+                <goleador_v>Silva</goleador_v>
+                <goleador_v>Touré</goleador_v>
+            </goles_v>
+        </partido>
+    </octavos>
+ </champions>
